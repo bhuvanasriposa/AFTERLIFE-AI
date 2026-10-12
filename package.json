@@ -1,0 +1,24 @@
+{
+  "name": "afterlife-ai",
+  "version": "0.1.0",
+  "description": "Every object has a second story. A multimodal evidence-loop assistant that helps decide whether to repair, repurpose or recycle an object.",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "keywords": [
+    "gemma",
+    "multimodal",
+    "repair",
+    "recycling",
+    "sustainability",
+    "hackathon"
+  ]
+}
